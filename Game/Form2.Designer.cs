@@ -1,14 +1,14 @@
 ﻿namespace Game
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,8 +23,8 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -36,47 +36,45 @@
             // button1
             // 
             button1.Font = new Font("Comic Sans MS", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(63, 208);
+            button1.Location = new Point(251, 389);
             button1.Name = "button1";
-            button1.Size = new Size(150, 68);
+            button1.Size = new Size(92, 37);
             button1.TabIndex = 0;
-            button1.Text = "Play";
+            button1.Text = "OK";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Font = new Font("Comic Sans MS", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(63, 311);
+            button2.Location = new Point(316, 221);
             button2.Name = "button2";
-            button2.Size = new Size(150, 64);
+            button2.Size = new Size(75, 23);
             button2.TabIndex = 1;
-            button2.Text = "Opcje";
+            button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += opcje_Click;
+            button2.Click += button2_Click_1;
             // 
             // button3
             // 
             button3.Font = new Font("Comic Sans MS", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(63, 411);
+            button3.Location = new Point(370, 389);
             button3.Name = "button3";
-            button3.Size = new Size(150, 66);
+            button3.Size = new Size(112, 37);
             button3.TabIndex = 2;
-            button3.Text = "Wyjście";
+            button3.Text = "Anuluj";
             button3.UseVisualStyleBackColor = true;
-            button3.Click += wyjscie_Click;
             // 
-            // Form1
+            // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.background;
-            ClientSize = new Size(902, 589);
+            ClientSize = new Size(800, 450);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
+            Name = "Form2";
+            Text = "Opcje";
             ResumeLayout(false);
         }
 
